@@ -20,7 +20,7 @@
 \contentsline {section}{\numberline {4.4}Bagging}{9}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Random Forest}{9}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Notes}{9}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Boosting}{10}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Boosting}{9}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Notes}{10}{subsection.4.5.1}%
 \contentsline {section}{\numberline {4.6}Stacking}{10}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Notes}{10}{subsection.4.6.1}%

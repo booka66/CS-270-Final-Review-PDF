@@ -30,7 +30,6 @@ I've included a table of contents this time around, so you can jump to the topic
 \chapter{Data Mining Process Model}
 \section{The Process}
 \nt{I'm pulling straight from the slides here. Know this process at a high level.}
-
 \begin{enumerate}
   \item Identify and define the task (business understanding)
     \begin{itemize}
@@ -111,9 +110,6 @@ Once we have the probabilities, we can classify a new instance $X$ by
   \item Independence assumption may not hold for some attributes.
 \end{itemize}
 
-
-
-
 \chapter{Ensembles}
 \begin{quote}
   Two heads are better than one, not because either is infallible, but because they are unlikely to go wrong in the same direction. - C.S. Lewis
@@ -126,7 +122,6 @@ Once we have the probabilities, we can classify a new instance $X$ by
 Bias and variance are inversely related. As one goes up, the other goes down. The goal is to minimize both.
 \section{Why are Ensembles Helpful?}
 By using ensembles, we can reduce the bias and variance of our models. Ensembles combine multiple models to create a stronger model. The idea is that the models will make different errors, and by combining them, we can reduce the overall error. See Dr. Snell's slides for examples.
-
 \subsection{Four Important Criteria}
 \begin{enumerate}
   \item \textit{Independence:} The models should be independent.
@@ -134,7 +129,6 @@ By using ensembles, we can reduce the bias and variance of our models. Ensembles
   \item \textit{Decentralization:} The models should be trained on different subsets of the data.
   \item \textit{Aggregation:} The models should be combined in a way that reduces error.
 \end{enumerate}
-
 \section{Voting Ensemble}
 Let $T$ be the training set, $A = \{A_1, A_2, \ldots, A_n\}$ be the set of models, and $C$ be the set of classes. Define a function $\delta$ as follows:
 \begin{align*}
@@ -156,7 +150,6 @@ Then the voting ensemble is defined as
   \item Key issues: diversity and independence (too small of a set $A$ and too similar models will not help).
   \item The models should be trained on different subsets of the data.
 \end{itemize}
-
 \section{Bagging}
 Let $T$ be the training set, $A$ be the learning algorithm, $N$ be the number of samples (or bags) of size $d$ drawn from $T$, $C$ be the set of classes, and $\delta$ be defined as in the Voting Ensembles section. Then the bagging ensemble is defined as
 \begin{enumerate}
@@ -182,7 +175,6 @@ Let $T$ be the training set, $A$ be the learning algorithm, $N$ be the number of
 \begin{align*}
   \includegraphics[width=0.75\textwidth]{bagging.png}
 \end{align*}
-
 \section{Boosting}
 ``Boost weak learners into strong learners.''
 \subsection{AdaBoost}
@@ -213,7 +205,6 @@ Unlike AdaBoost, Gradient Boosting learns from residual errors, rather than dire
 \begin{align*}
   \includegraphics[width=0.75\textwidth]{boosting.png}
 \end{align*}
-
 \section{Stacking}
 Let $T$ be the base-level training set, $N$ be the number of base-level learning algorithms, $A = \{A_1, A_2, \ldots, A_n, A_{\text{meta}}\}$ be the set of base-level learning algorithms, and $A_{\text{meta}}$ be the chosen meta-level learner.
 Then the stacking ensemble is defined as
@@ -238,12 +229,24 @@ Then the stacking ensemble is defined as
   \includegraphics[width=0.75\textwidth]{stacking.png}
 \end{align*}
 
-
-
-
 \chapter{Clustering}
+Clustering is an important type of unsupervised learning (PCA is unsupervised). The goal of clustering is to group similar data points together in a cluster.
+
 \section{K-Means}
 \section{Hierarchical Clustering}
+\begin{enumerate}
+  \item Start with an $n \times n$ adjacency matrix
+  \item Initialize each point as its own cluster
+  \item Merge the two ``closest'' clusters (closeness is either single, complete, or average linkage)
+  \item Repeat until there is only one cluster
+\end{enumerate}
+\subsection{Closeness}
+\includegraphics[width=\textwidth]{linkage.png}
+\begin{itemize}
+  \item Single linkage can lead to long chained clusters
+  \item Complete linkage finds more compact clusters
+  \item Average linkage is used less because it is computationally expensive
+\end{itemize}
 \section{Silhouette Score}
 
 \chapter{Reinforcement Learning}

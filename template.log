@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  15 APR 2024 17:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  15 APR 2024 17:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1141,7 +1141,7 @@ Missing character: There is no ; in font nullfont!
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ... {7}Basic Precision/Recall}{14}{chapter.7}
+l.36 ... {7}Basic Precision/Recall}{14}{chapter.7}
                                                   % [1
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
@@ -1164,10 +1164,10 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 32.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 32.
-<cycle.png, id=205, 1043.9pt x 948.54375pt>
+<cycle.png, id=208, 1043.9pt x 948.54375pt>
 File: cycle.png Graphic file (type png)
 <use cycle.png>
-Package pdftex.def Info: cycle.png  used on input line 55.
+Package pdftex.def Info: cycle.png  used on input line 54.
 (pdftex.def)             Requested size: 491.43513pt x 446.55377pt.
 [4
 
@@ -1180,45 +1180,50 @@ Chapter 4.
 [8
 
 ]
-<bagging.png, id=259, 1244.65pt x 637.38126pt>
+<bagging.png, id=262, 1244.65pt x 637.38126pt>
 File: bagging.png Graphic file (type png)
 <use bagging.png>
-Package pdftex.def Info: bagging.png  used on input line 184.
+Package pdftex.def Info: bagging.png  used on input line 177.
 (pdftex.def)             Requested size: 368.57634pt x 188.74553pt.
 File: bagging.png Graphic file (type png)
 <use bagging.png>
-Package pdftex.def Info: bagging.png  used on input line 184.
+Package pdftex.def Info: bagging.png  used on input line 177.
 (pdftex.def)             Requested size: 368.57634pt x 188.74553pt.
  [9 <./bagging.png>]
-<boosting.png, id=267, 1244.65pt x 637.38126pt>
+<boosting.png, id=270, 1244.65pt x 637.38126pt>
 File: boosting.png Graphic file (type png)
 <use boosting.png>
-Package pdftex.def Info: boosting.png  used on input line 215.
+Package pdftex.def Info: boosting.png  used on input line 207.
 (pdftex.def)             Requested size: 368.57634pt x 188.74553pt.
 File: boosting.png Graphic file (type png)
 <use boosting.png>
-Package pdftex.def Info: boosting.png  used on input line 215.
+Package pdftex.def Info: boosting.png  used on input line 207.
 (pdftex.def)             Requested size: 368.57634pt x 188.74553pt.
 
-Overfull \hbox (3.82388pt too wide) in paragraph at lines 218--221
+Overfull \hbox (3.82388pt too wide) in paragraph at lines 209--212
 \OT1/lmr/m/n/10 Let $\OML/lmm/m/it/10 T$ \OT1/lmr/m/n/10 be the base-level train-ing set, $\OML/lmm/m/it/10 N$ \OT1/lmr/m/n/10 be the num-ber of base-level learn-ing al-go-rithms, $\OML/lmm/m/it/10 A \OT1/lmr/m/n/10 = \OMS/lmsy/m/n/10 f\OML/lmm/m/it/10 A[]; A[]; [] ; A[]; A[]\OMS/lmsy/m/n/10 g$
  []
 
 [10 <./boosting.png>]
-<stacking.png, id=281, 1244.65pt x 532.99126pt>
+<stacking.png, id=284, 1244.65pt x 532.99126pt>
 File: stacking.png Graphic file (type png)
 <use stacking.png>
-Package pdftex.def Info: stacking.png  used on input line 239.
+Package pdftex.def Info: stacking.png  used on input line 230.
 (pdftex.def)             Requested size: 368.57634pt x 157.83289pt.
 File: stacking.png Graphic file (type png)
 <use stacking.png>
-Package pdftex.def Info: stacking.png  used on input line 239.
+Package pdftex.def Info: stacking.png  used on input line 230.
 (pdftex.def)             Requested size: 368.57634pt x 157.83289pt.
  [11 <./stacking.png>]
 Chapter 5.
+<linkage.png, id=296, 1828.8325pt x 650.43pt>
+File: linkage.png Graphic file (type png)
+<use linkage.png>
+Package pdftex.def Info: linkage.png  used on input line 244.
+(pdftex.def)             Requested size: 491.43513pt x 174.77484pt.
 [12
 
-]
+ <./linkage.png>]
 Chapter 6.
 [13
 
@@ -1240,18 +1245,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 35932 strings out of 476025
- 742453 string characters out of 5790017
- 1871388 words of memory out of 5000000
- 55617 multiletter control sequences out of 15000+600000
+ 35945 strings out of 476025
+ 742611 string characters out of 5790017
+ 1870388 words of memory out of 5000000
+ 55624 multiletter control sequences out of 15000+600000
  580278 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,102p,588b,2383s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on template.pdf (17 pages, 2294144 bytes).
+Output written on template.pdf (17 pages, 2769946 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
- 407 compressed objects within 5 object streams
- 93 named destinations out of 1000 (max. 500000)
- 575 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 554 PDF objects out of 1000 (max. 8388607)
+ 417 compressed objects within 5 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 588 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1560,6 +1560,11 @@ INPUT ./stacking.png
 INPUT ./stacking.png
 INPUT stacking.png
 INPUT ./stacking.png
+INPUT ./linkage.png
+INPUT ./linkage.png
+INPUT linkage.png
+INPUT ./linkage.png
+INPUT ./linkage.png
 INPUT template.aux
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb

@@ -136,7 +136,7 @@ By using ensembles, we can reduce the bias and variance of our models. Ensembles
 \end{enumerate}
 
 \section{Voting Ensemble}
-Let $T$ be the training set, $A = \{A_1, A_2, \ldots, A_n\}$ be the set of models, and $C$ be the set of classes. Finally define a function $\delta$ as follows:
+Let $T$ be the training set, $A = \{A_1, A_2, \ldots, A_n\}$ be the set of models, and $C$ be the set of classes. Define a function $\delta$ as follows:
 \begin{align*}
   \delta(a, b) &= \begin{cases}
     1 & \text{if } a = b\\
@@ -157,6 +157,43 @@ Then the voting ensemble is defined as
   \item The models should be trained on different subsets of the data.
 \end{itemize}
 
+\section{Bagging}
+Let $T$ be the training set, $A$ be the learning algorithm, $N$ be the number of samples (or bags) of size $d$ drawn from $T$, $C$ be the set of classes, and $\delta$ be defined as in the Voting Ensembles section. Then the bagging ensemble is defined as
+\begin{enumerate}
+  \item For $k = 1$ to $N$, $S_k \subseteq T$ is a sample of size $d$ drawn from $T$, with replacement and $h_k$ is a model trained on $S_k$ using learning algorithm $A$.
+    \item For a new instance $X$, the ensemble predicts
+      \begin{align*}
+        \hat{C} &= \argmax_{c \in C} \sum_{k=1}^N \delta(c, h_k(X))
+      \end{align*}
+\end{enumerate}
+\subsection{Random Forest}
+\begin{itemize}
+  \item A bagging ensemble extension of decision trees
+  \item Each tree is trained on a different bootstrap sample
+  \item Two random variables: the bootstrap sample and the feature subset
+\end{itemize}
+\subsection{Notes}
+\begin{itemize}
+  \item Train $N$ models on $N$ different bootstrap samples
+  \item Combines the outputs by voting ($\delta$ function)
+  \item Decreases error by reducing variance due to unstable learning algorithms
+  \item Homogeneous models are used
+\end{itemize}
+\begin{align*}
+  \includegraphics[width=0.75\textwidth]{bagging.png}
+\end{align*}
+
+\section{Boosting}
+\subsection{Notes}
+\begin{itemize}
+  \item Great for reducing bias
+  \item Combines the outputs by weighted voting/averaging
+  \item Homogeneous models are used
+\end{itemize}
+\begin{align*}
+  \includegraphics[width=0.75\textwidth]{boosting.png}
+\end{align*}
+
 \section{Stacking}
 Let $T$ be the base-level training set, $N$ be the number of base-level learning algorithms, $A = \{A_1, A_2, \ldots, A_n, A_{\text{meta}}\}$ be the set of base-level learning algorithms, and $A_{\text{meta}}$ be the chosen meta-level learner.
 Then the stacking ensemble is defined as
@@ -171,36 +208,17 @@ Then the stacking ensemble is defined as
         \hat{C} &= h_{\text{meta}}(h_1(X), h_2(X), \ldots, h_N(X))
       \end{align*}
 \end{enumerate}
-\begin{align*}
-  \includegraphics[width=0.6\textwidth]{stacking.png}
-\end{align*}
 \subsection{Notes}
 \begin{itemize}
   \item Improves accuracy by combining the outputs of multiple models
   \item Hetereogeneous models are used at the base level
   \item The meta-level model is trained on the outputs of the base-level models
 \end{itemize}
+\begin{align*}
+  \includegraphics[width=0.75\textwidth]{stacking.png}
+\end{align*}
 
-\section{Bagging}
-Let $T$ be the training set, $A$ be the learning algorithm, $N$ be the number of samples (or bags) of size $d$ drawn from $T$, $C$ be the set of classes, and $\delta$ be defined as in the Voting Ensembles section. Then the bagging ensemble is defined as
-\begin{enumerate}
-  \item For $k = 1$ to $N$, $S_k \subseteq T$ is a sample of size $d$ drawn from $T$, with replacement and $h_k$ is a model trained on $S_k$ using learning algorithm $A$.
-    \item For a new instance $X$, the ensemble predicts
-      \begin{align*}
-        \hat{C} &= \argmax_{c \in C} \sum_{k=1}^N \delta(c, h_k(X))
-      \end{align*}
-\end{enumerate}
-\subsection{Notes}
-\begin{itemize}
-  \item Train $N$ models on $N$ different bootstrap samples
-  \item Combines the outputs by voting ($\delta$ function)
-  \item Decreases error by reducing variance due to unstable learning algorithms
-  \item Homogeneous models are used
-\end{itemize}
 
-\section{Boosting}
-
-\subsection{Notes}
 
 
 \chapter{Clustering}

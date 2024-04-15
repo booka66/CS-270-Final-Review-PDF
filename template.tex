@@ -185,15 +185,30 @@ Let $T$ be the training set, $A$ be the learning algorithm, $N$ be the number of
 
 \section{Boosting}
 ``Boost weak learners into strong learners.''
-
-
-
+\subsection{AdaBoost}
+AdaBoost learns from mistakes by increasing the weights of the misclassified instances.
+His slides go quite in depth on AdaBoost (adaptive boosting), so I would recommend reviewing them.
+\begin{enumerate}
+  \item Start with uniform weights
+  \item Train a weak learner
+  \item Update the weigthts based on the performance of the weak learner
+  \item Repeat
+\end{enumerate}
+\subsection{Gradient Boosting}
+Unlike AdaBoost, Gradient Boosting learns from residual errors, rather than directly updating the weights.
+\begin{enumerate}
+  \item Train a weak learner
+  \item Compute the residuals (errors) on the training set
+  \item Train a new weak learner to predict the residuals
+  \item Repeat from step 2 until the residuals are small
+\end{enumerate}
 \subsection{Notes}
 \begin{itemize}
   \item Great for reducing bias
   \item Combines the outputs by weighted voting/averaging
   \item Homogeneous models are used
   \item Weak learners need to be better than random guessing
+  \item Construct a strong learner by weighted voting of the weak learners
 \end{itemize}
 \begin{align*}
   \includegraphics[width=0.75\textwidth]{boosting.png}

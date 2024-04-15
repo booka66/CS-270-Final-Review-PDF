@@ -1,0 +1,228 @@
+\documentclass[10pt]{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\usepackage{graphicx}
+
+\title{\Huge{CS 270}\\Final Exam Review}
+\author{\huge{Jake Cahoon}}
+\date{}
+
+\begin{document}
+
+\maketitle
+\newpage
+\pdfbookmark[section]{\contentsname}{toc}
+\renewcommand{\contentsname}{Table of Contents}
+\tableofcontents
+\pagebreak
+
+\chapter{Introduction}
+\section{Note From Jake}
+I hope the last review document was helpful, and I hope this one is as well. To make these, I've gone through the Exam Study Guide topics posted on Learning Suite. With the hope that I don't miss topics that will be on the final, I went through every slide and included all that I deem noteworthy. Despite this endeavor, I will miss topics, so I suggest you use this as a supplement to your study rather than relying solely on it.
+
+I've included a table of contents this time around, so you can jump to the topics you need to study. That being said, let's friggin' do this.
+
+\pagebreak
+
+\chapter{Data Mining Process Model}
+\section{The Process}
+\nt{I'm pulling straight from the slides here. Know this process at a high level.}
+
+\begin{enumerate}
+  \item Identify and define the task (business understanding)
+    \begin{itemize}
+      \item Understand the context, audience, and problem
+      \item Tell the story
+    \end{itemize}
+  \item Gather and prepare the data
+    \begin{itemize}
+      \item Build a dataset for the task
+      \item Select/transform/derive features
+      \item Conduct exploratory data analysis
+      \item Clean the data
+    \end{itemize}
+  \item Build and evaluate model
+  \item Deploy the model
+    \begin{itemize}
+      \item Evaluate business related results
+    \end{itemize}
+  \item Iterate and improve the model
+\end{enumerate}
+\section{The Cycle Picture}
+\includegraphics[width=\textwidth]{cycle.png}
+
+\chapter{Bayesian Learning}
+There are two approaches to statistical learning: frequentist and Bayesian. Frequentist statistics is based on the idea of repeated sampling, while Bayesian statistics is based on the idea of starting with prior beliefs and then updating beliefs based on new information.
+\section{Bayes Theorem}
+\dfn{}{
+  Let $C$ and $A$ be events. Then
+  \begin{align*}
+    P(C|A) &= \frac{P(A|C)P(C)}{P(A)}
+  \end{align*}
+  \nt{The right side of the equation is based on our current data, while the left side is what we want to find.}
+}
+\subsection{Notes}
+\begin{itemize}
+  \item Prior probabilities are based on prior knowledge. They are the initial beliefs.
+    \item Posterior probabilities are the updated beliefs based on new information.
+  \item $P(C)$ is the prior probability of the Class.
+  \item $P(A)$ is the prior probability of the Attribute.
+  \item $P(A|C)$ is the likelihood of the Attribute given the Class.
+  \item $P(C|A)$ is the posterior probability of the Class given the Attribute.
+\end{itemize}
+\section{Bayesian Classifiers}
+Given a set of attributes $\{A_1, A_2, \ldots, A_n\}$ and a class $C$, we can use Bayes Theorem to find the output class $C$ that maximizes $P(C | A_1, A_2, \ldots, A_n)$. For each output class $C$, do
+\begin{align*}
+  P(C | A_1, A_2, \ldots, A_n) &= \frac{P(A_1, A_2, \ldots, A_n | C)P(C)}{P(A_1, A_2, \ldots, A_n)}
+\end{align*}
+\section{Maximum A Posteriori (MAP) Estimation}
+\dfn{}{
+  Let $D$ be a dataset and let $H$ be the set of all hypotheses. Then
+  \begin{align*}
+    \hat{h}_{MAP} &= \argmax_{h\in H} P(h|D)\\
+  \end{align*}
+  where $\hat{h}_{MAP}$ is the maximum a posteriori hypothesis.
+}
+This is guaranteed to be ``best'', but it is computationally expensive and impractical for large hypothesis spaces.
+\section{Bayes Optimal Classifier}
+% TODO: I have no idea what to add here.
+TODO: Figure out what to add here.
+\section{Naive Bayes Classifiers}
+A simple classifier that assumes that the attributes are conditionally independent given the class. This is a naive assumption, but it works well in practice. We assume that:
+\begin{align*}
+  P(A_1, A_2, \ldots A_n | C) &= P(A_1 | C) \cdot P(A_2 | C) \cdot \ldots \cdot P(A_n | C)
+\end{align*}
+In other words, the probability of all the attributes given the class is the product of the probabilities of each attribute given the class. Then for each $A_i \in A$ and for each $C_j \in C$ we can estimate $P(A_i | C_j)$, which you did when you calculated the probabilities in the HW.
+
+Once we have the probabilities, we can classify a new instance $X$ by
+\begin{align*}
+  \hat{C} &= \argmax_{C_j \in C} \left(P(C_j) \cdot \prod_{i=1}^n P(A_i | C_j)\right)
+\end{align*}
+\subsection{Notes}
+\begin{itemize}
+  \item Various $P(C_j)$ and $P(A_i | C_j)$ are estimated from the training data.
+  \item Stores the probabilities in a table.
+  \item For a new instance $X$, the classifier calculates the probability of each class given the attributes.
+  \item $\hat{C}$ is the class with the highest probability.
+  \item The true probability is the normalized probability.
+  \item Independence assumption may not hold for some attributes.
+\end{itemize}
+
+
+
+
+\chapter{Ensembles}
+\begin{quote}
+  Two heads are better than one, not because either is infallible, but because they are unlikely to go wrong in the same direction. - C.S. Lewis
+\end{quote}
+\section{Bias and Variance}
+\begin{itemize}
+  \item Bias is the error due to overly simplistic assumptions in the learning algorithm.
+  \item Variance is the error due to the algorithm's sensitivity to fluctuations in the training data.
+\end{itemize}
+Bias and variance are inversely related. As one goes up, the other goes down. The goal is to minimize both.
+\section{Why are Ensembles Helpful?}
+By using ensembles, we can reduce the bias and variance of our models. Ensembles combine multiple models to create a stronger model. The idea is that the models will make different errors, and by combining them, we can reduce the overall error. See Dr. Snell's slides for examples.
+
+\subsection{Four Important Criteria}
+\begin{enumerate}
+  \item \textit{Independence:} The models should be independent.
+  \item \textit{Diversity:} The models should be different enough to make different errors.
+  \item \textit{Decentralization:} The models should be trained on different subsets of the data.
+  \item \textit{Aggregation:} The models should be combined in a way that reduces error.
+\end{enumerate}
+
+\section{Voting Ensemble}
+Let $T$ be the training set, $A = \{A_1, A_2, \ldots, A_n\}$ be the set of models, and $C$ be the set of classes. Finally define a function $\delta$ as follows:
+\begin{align*}
+  \delta(a, b) &= \begin{cases}
+    1 & \text{if } a = b\\
+    0 & \text{otherwise}
+  \end{cases}
+\end{align*}
+Then the voting ensemble is defined as
+\begin{enumerate}
+  \item For $k = 1$ to $N$, $h_k$ is a model trained on $T$ using learning algorithm $A_k$.
+  \item For a new instance $X$, the ensemble predicts
+    \begin{align*}
+      \hat{C} &= \argmax_{c \in C} \sum_{k=1}^N \delta(c, h_k(X))
+    \end{align*}
+\end{enumerate}
+\subsection{Notes}
+\begin{itemize}
+  \item Key issues: diversity and independence (too small of a set $A$ and too similar models will not help).
+  \item The models should be trained on different subsets of the data.
+\end{itemize}
+
+\section{Stacking}
+Let $T$ be the base-level training set, $N$ be the number of base-level learning algorithms, $A = \{A_1, A_2, \ldots, A_n, A_{\text{meta}}\}$ be the set of base-level learning algorithms, and $A_{\text{meta}}$ be the chosen meta-level learner.
+Then the stacking ensemble is defined as
+\begin{enumerate}
+  \item For $i = 1$ to $N$, $h_i$ is a model trained on $T$ using learning algorithm $A_i$.
+  \item Let $T_m$ be the meta-level training set. $T_m = \emptyset$.
+  \item For $k = 1$ to $|T|$, $E_k = \{h_1(X_k), h_2(X_k), \ldots, h_N(X_k), y_k\}$.
+  \item $T_m = T_m \cup E_k$.
+  \item $h_{\text{meta}}$ is a model trained on $T_m$ using learning algorithm $A_{\text{meta}}$.
+  \item For a new instance $X$, the ensemble predicts
+      \begin{align*}
+        \hat{C} &= h_{\text{meta}}(h_1(X), h_2(X), \ldots, h_N(X))
+      \end{align*}
+\end{enumerate}
+\begin{align*}
+  \includegraphics[width=0.6\textwidth]{stacking.png}
+\end{align*}
+\subsection{Notes}
+\begin{itemize}
+  \item Improves accuracy by combining the outputs of multiple models
+  \item Hetereogeneous models are used at the base level
+  \item The meta-level model is trained on the outputs of the base-level models
+\end{itemize}
+
+\section{Bagging}
+Let $T$ be the training set, $A$ be the learning algorithm, $N$ be the number of samples (or bags) of size $d$ drawn from $T$, $C$ be the set of classes, and $\delta$ be defined as in the Voting Ensembles section. Then the bagging ensemble is defined as
+\begin{enumerate}
+  \item For $k = 1$ to $N$, $S_k \subseteq T$ is a sample of size $d$ drawn from $T$, with replacement and $h_k$ is a model trained on $S_k$ using learning algorithm $A$.
+    \item For a new instance $X$, the ensemble predicts
+      \begin{align*}
+        \hat{C} &= \argmax_{c \in C} \sum_{k=1}^N \delta(c, h_k(X))
+      \end{align*}
+\end{enumerate}
+\subsection{Notes}
+\begin{itemize}
+  \item Train $N$ models on $N$ different bootstrap samples
+  \item Combines the outputs by voting ($\delta$ function)
+  \item Decreases error by reducing variance due to unstable learning algorithms
+  \item Homogeneous models are used
+\end{itemize}
+
+\section{Boosting}
+
+\subsection{Notes}
+
+
+\chapter{Clustering}
+\section{K-Means}
+\section{Hierarchical Clustering}
+\section{Silhouette Score}
+
+\chapter{Reinforcement Learning}
+\section{Q-Learning}
+
+\chapter{Basic Precision/Recall}
+
+\chapter{CNNs}
+\section{Structure}
+\subsection{Convolutional Layers}
+\subsection{Pooling Layers}
+\subsection{Fully Connected Layers}
+
+\chapter{Other Deep Learning Topics}
+\section{GANs}
+\section{RNNs}
+\section{LSTMs}
+\section{Transformers}
+
+\end{document}

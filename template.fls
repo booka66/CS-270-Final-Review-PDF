@@ -1586,6 +1586,15 @@ INPUT ./images/linkage.png
 INPUT images/linkage.png
 INPUT ./images/linkage.png
 INPUT ./images/linkage.png
+INPUT ./images/silscore.png
+INPUT ./images/silscore.png
+INPUT images/silscore.png
+INPUT ./images/silscore.png
+INPUT ./images/silscore.png
+INPUT ./images/silscore.png
+INPUT ./images/silscore.png
+INPUT images/silscore.png
+INPUT ./images/silscore.png
 INPUT template.aux
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb

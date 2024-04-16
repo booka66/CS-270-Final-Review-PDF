@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1713233018 "template.tex" "template.pdf" "template" 1713233021 0
+["pdflatex"] 1713237575 "template.tex" "template.pdf" "template" 1713237579 0
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -280,10 +280,11 @@
   "images/cycle.png" 1713061062 1907902 879e5e324499d54d462c695034b3a7f7 ""
   "images/dendrogram.png" 1713227382 84148 ab3080e4a8eac5a05e8e78c7af55cde1 ""
   "images/linkage.png" 1713223400 482103 db75c0b72907a244ea91b3a9db04fe87 ""
+  "images/silscore.png" 1713234859 872633 b40d8cc8108f35fd0634fd2ded956ac1 ""
   "images/stacking.png" 1713218761 87119 8751f88311e02fb406e2dc530de017ef ""
-  "template.aux" 1713233021 21292 3bdb978f2bfa8094ef686ba7ad362987 "pdflatex"
-  "template.tex" 1713233016 16620 5412c615bcb53ed92301708535ce5a81 ""
-  "template.toc" 1713233021 3619 93504df7bc5538e72e9d95bb15b460eb "pdflatex"
+  "template.aux" 1713237579 22297 53c68c6b0a992d3a19602e3e47952c03 "pdflatex"
+  "template.tex" 1713237575 19749 08c6a7d11e7d01e0b2eac2adf66195b8 ""
+  "template.toc" 1713237579 3800 184eb415c3f9cb909ee5166d2871d14d "pdflatex"
   (generated)
   "template.aux"
   "template.log"

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1713296749 "template.tex" "template.pdf" "template" 1713296753 0
+["pdflatex"] 1713296928 "template.tex" "template.pdf" "template" 1713296932 0
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -282,9 +282,9 @@
   "images/linkage.png" 1713223400 482103 db75c0b72907a244ea91b3a9db04fe87 ""
   "images/silscore.png" 1713234859 872633 b40d8cc8108f35fd0634fd2ded956ac1 ""
   "images/stacking.png" 1713218761 87119 8751f88311e02fb406e2dc530de017ef ""
-  "template.aux" 1713296753 22297 53c68c6b0a992d3a19602e3e47952c03 "pdflatex"
-  "template.tex" 1713294462 19747 a38d4a97bd79a9a6682fab6407e5876d ""
-  "template.toc" 1713296753 3800 184eb415c3f9cb909ee5166d2871d14d "pdflatex"
+  "template.aux" 1713296932 22297 53c68c6b0a992d3a19602e3e47952c03 "pdflatex"
+  "template.tex" 1713296914 19756 8ef319df315505c3f2992511f3d43f9d ""
+  "template.toc" 1713296932 3800 184eb415c3f9cb909ee5166d2871d14d "pdflatex"
   (generated)
   "template.aux"
   "template.log"

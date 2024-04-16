@@ -29,7 +29,8 @@
 \contentsline {chapter}{\numberline {5}Clustering}{12}{chapter.5}%
 \contentsline {section}{\numberline {5.1}K-Means}{12}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Hierarchical Clustering}{12}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Closeness}{14}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.1}Walkthrough}{12}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Closeness}{14}{subsection.5.2.2}%
 \contentsline {section}{\numberline {5.3}Silhouette Score}{14}{section.5.3}%
 \contentsline {chapter}{\numberline {6}Reinforcement Learning}{15}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Q-Learning}{15}{section.6.1}%

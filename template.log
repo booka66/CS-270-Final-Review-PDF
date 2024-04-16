@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  15 APR 2024 18:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  15 APR 2024 18:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1157,7 +1157,7 @@ Missing character: There is no ; in font nullfont!
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 ... {7}Basic Precision/Recall}{16}{chapter.7}
+l.37 ... {7}Basic Precision/Recall}{16}{chapter.7}
                                                   % [1
 
 {/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
@@ -1180,7 +1180,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 33.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 33.
-<cycle.png, id=208, 1043.9pt x 948.54375pt>
+<cycle.png, id=211, 1043.9pt x 948.54375pt>
 File: cycle.png Graphic file (type png)
 <use cycle.png>
 Package pdftex.def Info: cycle.png  used on input line 55.
@@ -1196,7 +1196,7 @@ Chapter 4.
 [8
 
 ]
-<bagging.png, id=262, 1244.65pt x 637.38126pt>
+<bagging.png, id=265, 1244.65pt x 637.38126pt>
 File: bagging.png Graphic file (type png)
 <use bagging.png>
 Package pdftex.def Info: bagging.png  used on input line 178.
@@ -1206,7 +1206,7 @@ File: bagging.png Graphic file (type png)
 Package pdftex.def Info: bagging.png  used on input line 178.
 (pdftex.def)             Requested size: 368.57634pt x 188.74553pt.
  [9 <./bagging.png>]
-<boosting.png, id=270, 1244.65pt x 637.38126pt>
+<boosting.png, id=273, 1244.65pt x 637.38126pt>
 File: boosting.png Graphic file (type png)
 <use boosting.png>
 Package pdftex.def Info: boosting.png  used on input line 208.
@@ -1221,7 +1221,7 @@ Overfull \hbox (3.82388pt too wide) in paragraph at lines 210--213
  []
 
 [10 <./boosting.png>]
-<stacking.png, id=284, 1244.65pt x 532.99126pt>
+<stacking.png, id=287, 1244.65pt x 532.99126pt>
 File: stacking.png Graphic file (type png)
 <use stacking.png>
 Package pdftex.def Info: stacking.png  used on input line 231.
@@ -1235,19 +1235,19 @@ Chapter 5.
 [12
 
 ]
-<dendrogram.png, id=308, 302.12875pt x 325.215pt>
+<dendrogram.png, id=311, 302.12875pt x 325.215pt>
 File: dendrogram.png Graphic file (type png)
 <use dendrogram.png>
-Package pdftex.def Info: dendrogram.png  used on input line 368.
+Package pdftex.def Info: dendrogram.png  used on input line 369.
 (pdftex.def)             Requested size: 196.57104pt x 211.5907pt.
 File: dendrogram.png Graphic file (type png)
 <use dendrogram.png>
-Package pdftex.def Info: dendrogram.png  used on input line 368.
+Package pdftex.def Info: dendrogram.png  used on input line 369.
 (pdftex.def)             Requested size: 196.57104pt x 211.5907pt.
-<linkage.png, id=309, 1828.8325pt x 650.43pt>
+<linkage.png, id=312, 1828.8325pt x 650.43pt>
 File: linkage.png Graphic file (type png)
 <use linkage.png>
-Package pdftex.def Info: linkage.png  used on input line 372.
+Package pdftex.def Info: linkage.png  used on input line 373.
 (pdftex.def)             Requested size: 491.43513pt x 174.77484pt.
  [13 <./dendrogram.png>] [14 <./linkage.png>]
 Chapter 6.
@@ -1271,18 +1271,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 36252 strings out of 476025
- 746675 string characters out of 5790017
- 1886388 words of memory out of 5000000
- 55917 multiletter control sequences out of 15000+600000
+ 36254 strings out of 476025
+ 746697 string characters out of 5790017
+ 1887388 words of memory out of 5000000
+ 55918 multiletter control sequences out of 15000+600000
  584504 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,102p,588b,2383s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on template.pdf (19 pages, 2832971 bytes).
+Output written on template.pdf (19 pages, 2833830 bytes).
 PDF statistics:
- 577 PDF objects out of 1000 (max. 8388607)
- 434 compressed objects within 5 object streams
- 106 named destinations out of 1000 (max. 500000)
- 593 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 583 PDF objects out of 1000 (max. 8388607)
+ 439 compressed objects within 5 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 601 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  15 APR 2024 18:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  15 APR 2024 20:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,7 +23,7 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (./preamble.tex (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+) (./helpers/preamble.tex (/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
@@ -991,7 +991,7 @@ File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2021/07/05 v2.14 TOC entries
 \ttl@leftsep=\dimen331
-)) (./macros.tex) (./letterfonts.tex (/usr/local/texlive/2023/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+)) (./helpers/macros.tex) (./helpers/letterfonts.tex (/usr/local/texlive/2023/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/blkarray/blkarray.sty
@@ -1180,14 +1180,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 33.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 33.
-<cycle.png, id=211, 1043.9pt x 948.54375pt>
-File: cycle.png Graphic file (type png)
-<use cycle.png>
-Package pdftex.def Info: cycle.png  used on input line 55.
+<images/cycle.png, id=211, 1043.9pt x 948.54375pt>
+File: images/cycle.png Graphic file (type png)
+<use images/cycle.png>
+Package pdftex.def Info: images/cycle.png  used on input line 55.
 (pdftex.def)             Requested size: 491.43513pt x 446.55377pt.
 [4
 
-] [5 <./cycle.png>]
+] [5 <./images/cycle.png>]
 Chapter 3.
 [6
 
@@ -1196,60 +1196,60 @@ Chapter 4.
 [8
 
 ]
-<bagging.png, id=265, 1244.65pt x 637.38126pt>
-File: bagging.png Graphic file (type png)
-<use bagging.png>
-Package pdftex.def Info: bagging.png  used on input line 178.
+<images/bagging.png, id=265, 1244.65pt x 637.38126pt>
+File: images/bagging.png Graphic file (type png)
+<use images/bagging.png>
+Package pdftex.def Info: images/bagging.png  used on input line 178.
 (pdftex.def)             Requested size: 368.57634pt x 188.74553pt.
-File: bagging.png Graphic file (type png)
-<use bagging.png>
-Package pdftex.def Info: bagging.png  used on input line 178.
+File: images/bagging.png Graphic file (type png)
+<use images/bagging.png>
+Package pdftex.def Info: images/bagging.png  used on input line 178.
 (pdftex.def)             Requested size: 368.57634pt x 188.74553pt.
- [9 <./bagging.png>]
-<boosting.png, id=273, 1244.65pt x 637.38126pt>
-File: boosting.png Graphic file (type png)
-<use boosting.png>
-Package pdftex.def Info: boosting.png  used on input line 208.
+ [9 <./images/bagging.png>]
+<images/boosting.png, id=273, 1244.65pt x 637.38126pt>
+File: images/boosting.png Graphic file (type png)
+<use images/boosting.png>
+Package pdftex.def Info: images/boosting.png  used on input line 208.
 (pdftex.def)             Requested size: 368.57634pt x 188.74553pt.
-File: boosting.png Graphic file (type png)
-<use boosting.png>
-Package pdftex.def Info: boosting.png  used on input line 208.
+File: images/boosting.png Graphic file (type png)
+<use images/boosting.png>
+Package pdftex.def Info: images/boosting.png  used on input line 208.
 (pdftex.def)             Requested size: 368.57634pt x 188.74553pt.
 
 Overfull \hbox (3.82388pt too wide) in paragraph at lines 210--213
 \OT1/lmr/m/n/10 Let $\OML/lmm/m/it/10 T$ \OT1/lmr/m/n/10 be the base-level train-ing set, $\OML/lmm/m/it/10 N$ \OT1/lmr/m/n/10 be the num-ber of base-level learn-ing al-go-rithms, $\OML/lmm/m/it/10 A \OT1/lmr/m/n/10 = \OMS/lmsy/m/n/10 f\OML/lmm/m/it/10 A[]; A[]; [] ; A[]; A[]\OMS/lmsy/m/n/10 g$
  []
 
-[10 <./boosting.png>]
-<stacking.png, id=287, 1244.65pt x 532.99126pt>
-File: stacking.png Graphic file (type png)
-<use stacking.png>
-Package pdftex.def Info: stacking.png  used on input line 231.
+[10 <./images/boosting.png>]
+<images/stacking.png, id=287, 1244.65pt x 532.99126pt>
+File: images/stacking.png Graphic file (type png)
+<use images/stacking.png>
+Package pdftex.def Info: images/stacking.png  used on input line 231.
 (pdftex.def)             Requested size: 368.57634pt x 157.83289pt.
-File: stacking.png Graphic file (type png)
-<use stacking.png>
-Package pdftex.def Info: stacking.png  used on input line 231.
+File: images/stacking.png Graphic file (type png)
+<use images/stacking.png>
+Package pdftex.def Info: images/stacking.png  used on input line 231.
 (pdftex.def)             Requested size: 368.57634pt x 157.83289pt.
- [11 <./stacking.png>]
+ [11 <./images/stacking.png>]
 Chapter 5.
 [12
 
 ]
-<dendrogram.png, id=311, 302.12875pt x 325.215pt>
-File: dendrogram.png Graphic file (type png)
-<use dendrogram.png>
-Package pdftex.def Info: dendrogram.png  used on input line 369.
+<images/dendrogram.png, id=315, 302.12875pt x 325.215pt>
+File: images/dendrogram.png Graphic file (type png)
+<use images/dendrogram.png>
+Package pdftex.def Info: images/dendrogram.png  used on input line 370.
 (pdftex.def)             Requested size: 196.57104pt x 211.5907pt.
-File: dendrogram.png Graphic file (type png)
-<use dendrogram.png>
-Package pdftex.def Info: dendrogram.png  used on input line 369.
+File: images/dendrogram.png Graphic file (type png)
+<use images/dendrogram.png>
+Package pdftex.def Info: images/dendrogram.png  used on input line 370.
 (pdftex.def)             Requested size: 196.57104pt x 211.5907pt.
-<linkage.png, id=312, 1828.8325pt x 650.43pt>
-File: linkage.png Graphic file (type png)
-<use linkage.png>
-Package pdftex.def Info: linkage.png  used on input line 373.
+<images/linkage.png, id=316, 1828.8325pt x 650.43pt>
+File: images/linkage.png Graphic file (type png)
+<use images/linkage.png>
+Package pdftex.def Info: images/linkage.png  used on input line 374.
 (pdftex.def)             Requested size: 491.43513pt x 174.77484pt.
- [13 <./dendrogram.png>] [14 <./linkage.png>]
+ [13 <./images/dendrogram.png>] [14 <./images/linkage.png>]
 Chapter 6.
 [15
 
@@ -1271,18 +1271,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 36254 strings out of 476025
- 746697 string characters out of 5790017
- 1887388 words of memory out of 5000000
- 55918 multiletter control sequences out of 15000+600000
+ 36261 strings out of 476025
+ 747195 string characters out of 5790017
+ 1886388 words of memory out of 5000000
+ 55923 multiletter control sequences out of 15000+600000
  584504 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,102p,588b,2383s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on template.pdf (19 pages, 2833830 bytes).
+Output written on template.pdf (19 pages, 2835883 bytes).
 PDF statistics:
- 583 PDF objects out of 1000 (max. 8388607)
- 439 compressed objects within 5 object streams
+ 587 PDF objects out of 1000 (max. 8388607)
+ 441 compressed objects within 5 object streams
  107 named destinations out of 1000 (max. 500000)
- 601 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 613 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,8 +1,8 @@
 \documentclass[10pt]{report}
 
-\input{preamble}
-\input{macros}
-\input{letterfonts}
+\input{helpers/preamble}
+\input{helpers/macros}
+\input{helpers/letterfonts}
 
 \usepackage{graphicx}
 \usepackage{blkarray}
@@ -52,7 +52,7 @@ I've included a table of contents this time around, so you can jump to the topic
   \item Iterate and improve the model
 \end{enumerate}
 \section{The Cycle Picture}
-\includegraphics[width=\textwidth]{cycle.png}
+\includegraphics[width=\textwidth]{images/cycle.png}
 
 \chapter{Bayesian Learning}
 There are two approaches to statistical learning: frequentist and Bayesian. Frequentist statistics is based on the idea of repeated sampling, while Bayesian statistics is based on the idea of starting with prior beliefs and then updating beliefs based on new information.
@@ -174,7 +174,7 @@ Let $T$ be the training set, $A$ be the learning algorithm, $N$ be the number of
   \item Homogeneous models are used
 \end{itemize}
 \begin{align*}
-  \includegraphics[width=0.75\textwidth]{bagging.png}
+  \includegraphics[width=0.75\textwidth]{images/bagging.png}
 \end{align*}
 \section{Boosting}
 ``Boost weak learners into strong learners.''
@@ -204,7 +204,7 @@ Unlike AdaBoost, Gradient Boosting learns from residual errors, rather than dire
   \item Construct a strong learner by weighted voting of the weak learners
 \end{itemize}
 \begin{align*}
-  \includegraphics[width=0.75\textwidth]{boosting.png}
+  \includegraphics[width=0.75\textwidth]{images/boosting.png}
 \end{align*}
 \section{Stacking}
 Let $T$ be the base-level training set, $N$ be the number of base-level learning algorithms, $A = \{A_1, A_2, \ldots, A_n, A_{\text{meta}}\}$ be the set of base-level learning algorithms, and $A_{\text{meta}}$ be the chosen meta-level learner.
@@ -227,7 +227,7 @@ Then the stacking ensemble is defined as
   \item The meta-level model is trained on the outputs of the base-level models
 \end{itemize}
 \begin{align*}
-  \includegraphics[width=0.75\textwidth]{stacking.png}
+  \includegraphics[width=0.75\textwidth]{images/stacking.png}
 \end{align*}
 
 \chapter{Clustering}
@@ -256,6 +256,7 @@ Clustering is an important type of unsupervised learning (PCA is unsupervised). 
       \end{block}
     \end{blockarray}
   \end{align*}
+  \nt{I recommend x-ing out the values in the clusters you've already merged.}
 }
 \sol{}{
   \begin{enumerate}
@@ -365,12 +366,12 @@ Clustering is an important type of unsupervised learning (PCA is unsupervised). 
       \end{align*}
     \item Draw the dendrogram dude
       \begin{align*}
-        \includegraphics[width=0.4\textwidth]{dendrogram.png}
+        \includegraphics[width=0.4\textwidth]{images/dendrogram.png}
       \end{align*}
   \end{enumerate}
 }
 \subsection{Closeness}
-\includegraphics[width=\textwidth]{linkage.png}
+\includegraphics[width=\textwidth]{images/linkage.png}
 \begin{itemize}
   \item Single linkage can lead to long chained clusters
   \item Complete linkage finds more compact clusters

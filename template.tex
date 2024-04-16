@@ -5,6 +5,7 @@
 \input{letterfonts}
 
 \usepackage{graphicx}
+\usepackage{blkarray}
 
 \title{\Huge{CS 270}\\Final Exam Review}
 \author{\huge{Jake Cahoon}}
@@ -240,6 +241,133 @@ Clustering is an important type of unsupervised learning (PCA is unsupervised). 
   \item Merge the two ``closest'' clusters (closeness is either single, complete, or average linkage)
   \item Repeat until there is only one cluster
 \end{enumerate}
+\ex{}{
+  Compute the clusters for the following adjacency matrix using single linkage.
+  \begin{align*}
+    \begin{blockarray}{cccccc}
+      & a & b & c & d & e \\
+      \begin{block}{c[ccccc]}
+        a & 0 & 1.4 & 0.2 & 1.3 & 1.2 \\
+        b & 1.4 & 0 & 1.6 & 0.1 & 0.4 \\
+        c & 0.2 & 1.6 & 0 & 1.5 & 1.4 \\
+        d & 1.3 & 0.1 & 1.5 & 0 & 0.3 \\
+        e & 1.2 & 0.4 & 1.4 & 0.3 & 0 \\
+      \end{block}
+    \end{blockarray}
+  \end{align*}
+}
+\sol{}{
+  \begin{enumerate}
+    \item Merge: $b$ and $d$ since the distance between them is $0.1$.
+      \begin{align*}
+        \begin{blockarray}{cccccc}
+          & a & b & c & d & e \\
+          \begin{block}{c[ccccc]}
+            a & 0 & 1.4 & 0.2 & 1.3 & 1.2 \\
+            b & 1.4 & 0 & 1.6 & 0.1 & 0.4 \\
+            c & 0.2 & 1.6 & 0 & 1.5 & 1.4 \\
+            d & 1.3 & 0.1 & 1.5 & 0 & 0.3 \\
+            e & 1.2 & 0.4 & 1.4 & 0.3 & 0 \\
+          \end{block}
+        \end{blockarray}
+        \quad
+        \implies
+        \quad
+        \begin{blockarray}{cccccc}
+          & a & b & c & d & e \\
+          \begin{block}{c[ccccc]}
+            a & 0 & 1.4 & 0.2 & 1.3 & 1.2 \\
+            b & 1.4 & 0 & 1.6 & \boxed{0.1} & 0.4 \\
+            c & 0.2 & 1.6 & 0 & 1.5 & 1.4 \\
+            d & 1.3 & \boxed{0.1} & 1.5 & 0 & 0.3 \\
+            e & 1.2 & 0.4 & 1.4 & 0.3 & 0 \\
+          \end{block}
+        \end{blockarray}
+      \end{align*}
+    \item Merge: $a$ and $c$ since the distance between them is $0.2$.
+      \begin{align*}
+        \begin{blockarray}{cccccc}
+          & a & b & c & d & e \\
+          \begin{block}{c[ccccc]}
+            a & 0 & 1.4 & 0.2 & 1.3 & 1.2 \\
+            b & 1.4 & 0 & 1.6 & \times & 0.4 \\
+            c & 0.2 & 1.6 & 0 & 1.5 & 1.4 \\
+            d & 1.3 & \times & 1.5 & 0 & 0.3 \\
+            e & 1.2 & 0.4 & 1.4 & 0.3 & 0 \\
+          \end{block}
+        \end{blockarray}
+        \quad
+        \implies
+        \quad
+        \begin{blockarray}{cccccc}
+          & a & b & c & d & e \\
+          \begin{block}{c[ccccc]}
+            a & 0 & 1.4 & \boxed{0.2} & 1.3 & 1.2 \\
+            b & 1.4 & 0 & 1.6 & \times & 0.4 \\
+            c & \boxed{0.2} & 1.6 & 0 & 1.5 & 1.4 \\
+            d & 1.3 & \times & 1.5 & 0 & 0.3 \\
+            e & 1.2 & 0.4 & 1.4 & 0.3 & 0 \\
+          \end{block}
+        \end{blockarray}
+      \end{align*}
+    \item Merge: $\{b,d\}$ and $e$ since the distance between them is $0.3$.
+      \begin{align*}
+        \begin{blockarray}{cccccc}
+          & a & b & c & d & e \\
+          \begin{block}{c[ccccc]}
+            a & 0 & 1.4 & \times & 1.3 & 1.2 \\
+            b & 1.4 & 0 & 1.6 & \times & 0.4 \\
+            c & \times & 1.6 & 0 & 1.5 & 1.4 \\
+            d & 1.3 & \times & 1.5 & 0 & 0.3 \\
+            e & 1.2 & 0.4 & 1.4 & 0.3 & 0 \\
+          \end{block}
+        \end{blockarray}
+        \quad
+        \implies
+        \quad
+        \begin{blockarray}{cccccc}
+          & a & b & c & d & e \\
+          \begin{block}{c[ccccc]}
+            a & 0 & 1.4 & \times & 1.3 & 1.2 \\
+            b & 1.4 & 0 & 1.6 & \times & 0.4 \\
+            c & \times & 1.6 & 0 & 1.5 & 1.4 \\
+            d & 1.3 & \times & 1.5 & 0 & \boxed{0.3} \\
+            e & 1.2 & 0.4 & 1.4 & \boxed{0.3} & 0 \\
+          \end{block}
+        \end{blockarray}
+      \end{align*}
+    \item Merge: $\{a,c\}$ and $\{b,d,e\}$ since the distance between them is $1.2$.
+      \begin{align*}
+        \begin{blockarray}{cccccc}
+          & a & b & c & d & e \\
+          \begin{block}{c[ccccc]}
+            a & 0 & 1.4 & \times & 1.3 & 1.2 \\
+            b & 1.4 & 0 & 1.6 & \times & \times \\
+            c & \times & 1.6 & 0 & 1.5 & 1.4 \\
+            d & 1.3 & \times & 1.5 & 0 & \times \\
+            e & 1.2 & \times & 1.4 & \times & 0 \\
+          \end{block}
+        \end{blockarray}
+        \quad
+        \implies
+        \quad
+        \begin{blockarray}{cccccc}
+          & a & b & c & d & e \\
+          \begin{block}{c[ccccc]}
+            a & 0 & 1.4 & \times & 1.3 & \boxed{1.2} \\
+            b & 1.4 & 0 & 1.6 & \times & \times \\
+            c & \times & 1.6 & 0 & 1.5 & 1.4 \\
+            d & 1.3 & \times & 1.5 & 0 & \times \\
+            e & \boxed{1.2} & \times & 1.4 & \times & 0 \\
+          \end{block}
+        \end{blockarray}
+      \end{align*}
+    \item Draw the dendrogram dude
+      \begin{align*}
+        \includegraphics[width=0.4\textwidth]{dendrogram.png}
+      \end{align*}
+  \end{enumerate}
+}
 \subsection{Closeness}
 \includegraphics[width=\textwidth]{linkage.png}
 \begin{itemize}

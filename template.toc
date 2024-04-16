@@ -29,19 +29,19 @@
 \contentsline {chapter}{\numberline {5}Clustering}{12}{chapter.5}%
 \contentsline {section}{\numberline {5.1}K-Means}{12}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Hierarchical Clustering}{12}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Closeness}{12}{subsection.5.2.1}%
-\contentsline {section}{\numberline {5.3}Silhouette Score}{12}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Reinforcement Learning}{13}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Q-Learning}{13}{section.6.1}%
-\contentsline {chapter}{\numberline {7}Basic Precision/Recall}{14}{chapter.7}%
-\contentsline {chapter}{\numberline {8}CNNs}{15}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Structure}{15}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Convolutional Layers}{15}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}Pooling Layers}{15}{subsection.8.1.2}%
-\contentsline {subsection}{\numberline {8.1.3}Fully Connected Layers}{15}{subsection.8.1.3}%
-\contentsline {chapter}{\numberline {9}Other Deep Learning Topics}{16}{chapter.9}%
-\contentsline {section}{\numberline {9.1}GANs}{16}{section.9.1}%
-\contentsline {section}{\numberline {9.2}RNNs}{16}{section.9.2}%
-\contentsline {section}{\numberline {9.3}LSTMs}{16}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Transformers}{16}{section.9.4}%
+\contentsline {subsection}{\numberline {5.2.1}Closeness}{14}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Silhouette Score}{14}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Reinforcement Learning}{15}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Q-Learning}{15}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Basic Precision/Recall}{16}{chapter.7}%
+\contentsline {chapter}{\numberline {8}CNNs}{17}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Structure}{17}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Convolutional Layers}{17}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Pooling Layers}{17}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Fully Connected Layers}{17}{subsection.8.1.3}%
+\contentsline {chapter}{\numberline {9}Other Deep Learning Topics}{18}{chapter.9}%
+\contentsline {section}{\numberline {9.1}GANs}{18}{section.9.1}%
+\contentsline {section}{\numberline {9.2}RNNs}{18}{section.9.2}%
+\contentsline {section}{\numberline {9.3}LSTMs}{18}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Transformers}{18}{section.9.4}%
 \contentsfinish 

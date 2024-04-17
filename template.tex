@@ -513,11 +513,21 @@ This all boils down to this bad boi, which you should write down:
   \end{enumerate}
 }
 
-\chapter{Basic Precision/Recall}
-
 \chapter{CNNs}
+Typically used for image recognition, CNNs are a type of neural network that uses convolutional layers to \textit{spatial and temporal dependencies} in the input data. They are made up of convolutional layers, pooling layers, and fully connected layers.
 \section{Structure}
+\begin{align*}
+  \includegraphics[width=0.9\textwidth]{images/cnn.png}
+\end{align*}
 \subsection{Convolutional Layers}
+This type of layer applies a convolution operation to the input, passing the result to the next layer. The convolution operation is defined by a kernel, which is a small matrix applied to the input. The kernel slides over the input, applying the operation to each region.
+\begin{align*}
+  \includegraphics[width=0.4\textwidth]{images/conv_layer.png} \\
+\end{align*}
+In the case of color images, the kernel is applied to each color channel.
+\begin{align*}
+  \includegraphics[width=0.6\textwidth]{images/rgb.png}
+\end{align*}
 \subsection{Pooling Layers}
 \subsection{Fully Connected Layers}
 

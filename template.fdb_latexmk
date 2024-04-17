@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1713296928 "template.tex" "template.pdf" "template" 1713296932 0
+["pdflatex"] 1713381923 "template.tex" "template.pdf" "template" 1713381927 0
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -55,6 +55,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr9.pfb" 1255129361 121065 50bbfa703ce7e11638752ef5a6d120c7 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb" 1255129361 112593 fda2373ba4420af33949610de4c28fe8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb" 1254269338 27863 09ce3735688ffde955e72da27c95b61a ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy5.pfb" 1254269338 28210 987b40585e9bcf6463d6155bb4219492 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb" 1254269338 27941 d1f5d03f61a46c3fcc3a2ba904ddda52 ""
   "/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2023/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -280,11 +281,15 @@
   "images/cycle.png" 1713061062 1907902 879e5e324499d54d462c695034b3a7f7 ""
   "images/dendrogram.png" 1713227382 84148 ab3080e4a8eac5a05e8e78c7af55cde1 ""
   "images/linkage.png" 1713223400 482103 db75c0b72907a244ea91b3a9db04fe87 ""
+  "images/s0.png" 1713380935 106682 48d3b40d5d418d454c6d4198cf01f3b5 ""
+  "images/s1.png" 1713380906 134333 daf0542118452ee06dc82e5f3ac45669 ""
+  "images/s2.png" 1713380881 165656 9acd69bb8d49a3fd044edd1f12f24eea ""
+  "images/s3.png" 1713380848 191947 74e21ed51044a48403cd7d6543a0fd04 ""
   "images/silscore.png" 1713234859 872633 b40d8cc8108f35fd0634fd2ded956ac1 ""
   "images/stacking.png" 1713218761 87119 8751f88311e02fb406e2dc530de017ef ""
-  "template.aux" 1713296932 22297 53c68c6b0a992d3a19602e3e47952c03 "pdflatex"
-  "template.tex" 1713296914 19756 8ef319df315505c3f2992511f3d43f9d ""
-  "template.toc" 1713296932 3800 184eb415c3f9cb909ee5166d2871d14d "pdflatex"
+  "template.aux" 1713381927 23029 3a6d5a052bad210915ab439b64b5ae6b "pdflatex"
+  "template.tex" 1713381917 22273 42e2d98bc26d3ec9adea4d96fde98727 ""
+  "template.toc" 1713381927 3952 7f10d3fde7350474df818bddc2849be3 "pdflatex"
   (generated)
   "template.aux"
   "template.log"

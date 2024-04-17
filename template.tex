@@ -457,7 +457,61 @@ Let $i$ be a point in a cluster. Then
 
 
 \chapter{Reinforcement Learning}
+Variation of supervised learning where the algorithm learns to make decisions by interacting with its environment. The goal is to learn a policy that maps states to actions. Trial and error.
+
+\section{RL Basics}
+\begin{itemize}
+  \item \textit{Agent:} The learner or decision maker
+  \item \textit{Environment:} The world the agent interacts with
+  \item \textit{State:} A representation of the environment
+  \item \textit{Action:} A decision made by the agent from a subset of possible actions
+  \item \textit{Reward:} A scalar feedback signal
+  \item \textit{Discount Factor:} A value between 0 and 1 that determines the importance of future rewards
+  \item \textit{Policy:} A strategy that the agent uses to determine its actions
+  \item \textit{Value Function:} A prediction of future rewards
+\end{itemize}
+
 \section{Q-Learning}
+\begin{itemize}
+  \item A model-free reinforcement learning algorithm
+  \item Try a possible action, observe the reward, and update the Q-value
+  \item In the real world, the system can't see the reward states
+\end{itemize}
+
+This all boils down to this bad boi, which you should write down:
+\begin{align*}
+  Q(s, a) &= r(s,a) + \gamma \max_{a'} Q(s', a')
+\end{align*}
+\nt{To make life easier and convergence faster, always ask yourself "Can I reasonably assume the max Q value leaving a state?" If the answer is yes, then go ahead and use the max Q value.}
+\subsection{Walkthrough}
+\ex{}{
+  Assume a discount factor of $0.6$. Give the optimal Q-values for the following environment:
+  \begin{align*}
+    \includegraphics[width=0.2\textwidth]{images/s0.png}
+  \end{align*}
+}
+\sol{}{
+  \begin{enumerate}
+    \item Start with the Q-values going into the reward state because the max Q-value leaving is $0$.
+      \begin{align*}
+        \includegraphics[width=0.2\textwidth]{images/s1.png} \\
+        Q_1 = Q_2 = 10 + 0.6 \cdot 0 = 10
+      \end{align*}
+      Note that we know $Q_1$ and $Q_2$ are the max Q-values leaving their respective states.
+    \item Use $Q_1$ and $Q_2$ to as max Q-values.
+      \begin{align*}
+        \includegraphics[width=0.2\textwidth]{images/s2.png} \\
+        Q_3 = Q_4 = 0 + 0.6 \cdot 10 = 6
+      \end{align*}
+      Note that we know $Q_3$ and $Q_4$ are the max Q-values leaving their respective states.
+    \item Use $Q_3$ and $Q_4$ to as max Q-values.
+      \begin{align*}
+        \includegraphics[width=0.2\textwidth]{images/s3.png} \\
+        Q_5 = Q_6 = -3 + 0.6 \cdot 6 = 0.60
+      \end{align*}
+    \item Bask in the glory of your optimal Q-values.
+  \end{enumerate}
+}
 
 \chapter{Basic Precision/Recall}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  18 APR 2024 12:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  18 APR 2024 12:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1234,147 +1234,147 @@ Chapter 5.
 [12
 
 ]
-<images/dendrogram.png, id=335, 302.12875pt x 325.215pt>
+<images/dendrogram.png, id=339, 302.12875pt x 325.215pt>
 File: images/dendrogram.png Graphic file (type png)
 <use images/dendrogram.png>
-Package pdftex.def Info: images/dendrogram.png  used on input line 371.
+Package pdftex.def Info: images/dendrogram.png  used on input line 377.
 (pdftex.def)             Requested size: 196.57104pt x 211.5907pt.
 File: images/dendrogram.png Graphic file (type png)
 <use images/dendrogram.png>
-Package pdftex.def Info: images/dendrogram.png  used on input line 371.
+Package pdftex.def Info: images/dendrogram.png  used on input line 377.
 (pdftex.def)             Requested size: 196.57104pt x 211.5907pt.
-<images/linkage.png, id=336, 1828.8325pt x 650.43pt>
+<images/linkage.png, id=340, 1828.8325pt x 650.43pt>
 File: images/linkage.png Graphic file (type png)
 <use images/linkage.png>
-Package pdftex.def Info: images/linkage.png  used on input line 375.
+Package pdftex.def Info: images/linkage.png  used on input line 381.
 (pdftex.def)             Requested size: 344.00308pt x 122.34238pt.
  [13 <./images/dendrogram.png>]
-<images/silscore.png, id=347, 923.45pt x 839.135pt>
+<images/silscore.png, id=351, 923.45pt x 839.135pt>
 File: images/silscore.png Graphic file (type png)
 <use images/silscore.png>
-Package pdftex.def Info: images/silscore.png  used on input line 391.
+Package pdftex.def Info: images/silscore.png  used on input line 397.
 (pdftex.def)             Requested size: 196.57104pt x 178.61792pt.
 File: images/silscore.png Graphic file (type png)
 <use images/silscore.png>
-Package pdftex.def Info: images/silscore.png  used on input line 391.
+Package pdftex.def Info: images/silscore.png  used on input line 397.
 (pdftex.def)             Requested size: 196.57104pt x 178.61792pt.
  [14 <./images/linkage.png> <./images/silscore.png>]
 
-Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before break' or set page breaks manually on input line 420.
+Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before break' or set page breaks manually on input line 426.
 
 [15]
 Chapter 6.
-<images/s0.png, id=368, 937.5025pt x 937.5025pt>
+<images/s0.png, id=372, 937.5025pt x 937.5025pt>
 File: images/s0.png Graphic file (type png)
 <use images/s0.png>
-Package pdftex.def Info: images/s0.png  used on input line 492.
+Package pdftex.def Info: images/s0.png  used on input line 498.
 (pdftex.def)             Requested size: 92.19507pt x 92.18217pt.
 File: images/s0.png Graphic file (type png)
 <use images/s0.png>
-Package pdftex.def Info: images/s0.png  used on input line 492.
+Package pdftex.def Info: images/s0.png  used on input line 498.
 (pdftex.def)             Requested size: 92.19507pt x 92.18217pt.
 [16
 
 ]
-<images/s1.png, id=375, 937.5025pt x 937.5025pt>
+<images/s1.png, id=379, 937.5025pt x 937.5025pt>
 File: images/s1.png Graphic file (type png)
 <use images/s1.png>
-Package pdftex.def Info: images/s1.png  used on input line 499.
+Package pdftex.def Info: images/s1.png  used on input line 505.
 (pdftex.def)             Requested size: 98.28552pt x 98.27615pt.
 File: images/s1.png Graphic file (type png)
 <use images/s1.png>
-Package pdftex.def Info: images/s1.png  used on input line 499.
+Package pdftex.def Info: images/s1.png  used on input line 505.
 (pdftex.def)             Requested size: 98.28552pt x 98.27615pt.
-<images/s2.png, id=376, 937.5025pt x 937.5025pt>
+<images/s2.png, id=380, 937.5025pt x 937.5025pt>
 File: images/s2.png Graphic file (type png)
 <use images/s2.png>
-Package pdftex.def Info: images/s2.png  used on input line 505.
+Package pdftex.def Info: images/s2.png  used on input line 511.
 (pdftex.def)             Requested size: 98.28552pt x 98.27615pt.
 File: images/s2.png Graphic file (type png)
 <use images/s2.png>
-Package pdftex.def Info: images/s2.png  used on input line 505.
+Package pdftex.def Info: images/s2.png  used on input line 511.
 (pdftex.def)             Requested size: 98.28552pt x 98.27615pt.
-<images/s3.png, id=377, 937.5025pt x 937.5025pt>
+<images/s3.png, id=381, 937.5025pt x 937.5025pt>
 File: images/s3.png Graphic file (type png)
 <use images/s3.png>
-Package pdftex.def Info: images/s3.png  used on input line 511.
+Package pdftex.def Info: images/s3.png  used on input line 517.
 (pdftex.def)             Requested size: 98.28552pt x 98.27615pt.
 File: images/s3.png Graphic file (type png)
 <use images/s3.png>
-Package pdftex.def Info: images/s3.png  used on input line 511.
+Package pdftex.def Info: images/s3.png  used on input line 517.
 (pdftex.def)             Requested size: 98.28552pt x 98.27615pt.
  [17 <./images/s0.png> <./images/s1.png> <./images/s2.png> <./images/s3.png>]
 Chapter 7.
-<images/cnn.png, id=390, 1887.05pt x 1014.79124pt>
+<images/cnn.png, id=394, 1887.05pt x 1014.79124pt>
 File: images/cnn.png Graphic file (type png)
 <use images/cnn.png>
-Package pdftex.def Info: images/cnn.png  used on input line 520.
+Package pdftex.def Info: images/cnn.png  used on input line 526.
 (pdftex.def)             Requested size: 442.28862pt x 237.84111pt.
 File: images/cnn.png Graphic file (type png)
 <use images/cnn.png>
-Package pdftex.def Info: images/cnn.png  used on input line 520.
+Package pdftex.def Info: images/cnn.png  used on input line 526.
 (pdftex.def)             Requested size: 442.28862pt x 237.84111pt.
-<images/conv_layer.png, id=391, 1591.9475pt x 1165.35374pt>
+<images/conv_layer.png, id=395, 1591.9475pt x 1165.35374pt>
 File: images/conv_layer.png Graphic file (type png)
 <use images/conv_layer.png>
-Package pdftex.def Info: images/conv_layer.png  used on input line 525.
+Package pdftex.def Info: images/conv_layer.png  used on input line 531.
 (pdftex.def)             Requested size: 196.57104pt x 143.89067pt.
 File: images/conv_layer.png Graphic file (type png)
 <use images/conv_layer.png>
-Package pdftex.def Info: images/conv_layer.png  used on input line 525.
+Package pdftex.def Info: images/conv_layer.png  used on input line 531.
 (pdftex.def)             Requested size: 196.57104pt x 143.89067pt.
 [18
 
  <./images/cnn.png>]
-<images/rgb.png, id=398, 1887.05pt x 1065.9825pt>
+<images/rgb.png, id=402, 1887.05pt x 1065.9825pt>
 File: images/rgb.png Graphic file (type png)
 <use images/rgb.png>
-Package pdftex.def Info: images/rgb.png  used on input line 529.
+Package pdftex.def Info: images/rgb.png  used on input line 535.
 (pdftex.def)             Requested size: 294.86407pt x 166.55936pt.
 File: images/rgb.png Graphic file (type png)
 <use images/rgb.png>
-Package pdftex.def Info: images/rgb.png  used on input line 529.
+Package pdftex.def Info: images/rgb.png  used on input line 535.
 (pdftex.def)             Requested size: 294.86407pt x 166.55936pt.
-<images/pooling.png, id=399, 1802.735pt x 1330.9725pt>
+<images/pooling.png, id=403, 1802.735pt x 1330.9725pt>
 File: images/pooling.png Graphic file (type png)
 <use images/pooling.png>
-Package pdftex.def Info: images/pooling.png  used on input line 539.
+Package pdftex.def Info: images/pooling.png  used on input line 545.
 (pdftex.def)             Requested size: 196.57104pt x 145.12796pt.
 File: images/pooling.png Graphic file (type png)
 <use images/pooling.png>
-Package pdftex.def Info: images/pooling.png  used on input line 539.
+Package pdftex.def Info: images/pooling.png  used on input line 545.
 (pdftex.def)             Requested size: 196.57104pt x 145.12796pt.
  [19 <./images/conv_layer.png> <./images/rgb.png> <./images/pooling.png>] [20]
 Chapter 8.
-<images/gan.png, id=413, 3960.7975pt x 1771.61874pt>
+<images/gan.png, id=417, 3960.7975pt x 1771.61874pt>
 File: images/gan.png Graphic file (type png)
 <use images/gan.png>
-Package pdftex.def Info: images/gan.png  used on input line 580.
+Package pdftex.def Info: images/gan.png  used on input line 586.
 (pdftex.def)             Requested size: 442.28862pt x 197.82523pt.
 File: images/gan.png Graphic file (type png)
 <use images/gan.png>
-Package pdftex.def Info: images/gan.png  used on input line 580.
+Package pdftex.def Info: images/gan.png  used on input line 586.
 (pdftex.def)             Requested size: 442.28862pt x 197.82523pt.
-<images/rnn.png, id=414, 1244.65pt x 391.4625pt>
+<images/rnn.png, id=418, 1244.65pt x 391.4625pt>
 File: images/rnn.png Graphic file (type png)
 <use images/rnn.png>
-Package pdftex.def Info: images/rnn.png  used on input line 601.
+Package pdftex.def Info: images/rnn.png  used on input line 607.
 (pdftex.def)             Requested size: 442.28862pt x 139.10455pt.
 File: images/rnn.png Graphic file (type png)
 <use images/rnn.png>
-Package pdftex.def Info: images/rnn.png  used on input line 601.
+Package pdftex.def Info: images/rnn.png  used on input line 607.
 (pdftex.def)             Requested size: 442.28862pt x 139.10455pt.
 [21
 
  <./images/gan.png>]
-<images/lstm.png, id=420, 1289.81876pt x 657.45625pt>
+<images/lstm.png, id=424, 1289.81876pt x 657.45625pt>
 File: images/lstm.png Graphic file (type png)
 <use images/lstm.png>
-Package pdftex.def Info: images/lstm.png  used on input line 611.
+Package pdftex.def Info: images/lstm.png  used on input line 617.
 (pdftex.def)             Requested size: 442.28862pt x 225.43823pt.
 File: images/lstm.png Graphic file (type png)
 <use images/lstm.png>
-Package pdftex.def Info: images/lstm.png  used on input line 611.
+Package pdftex.def Info: images/lstm.png  used on input line 617.
 (pdftex.def)             Requested size: 442.28862pt x 225.43823pt.
  [22 <./images/rnn.png> <./images/lstm.png>] [23] (./template.aux)
 
@@ -1382,18 +1382,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 36381 strings out of 476025
- 749215 string characters out of 5790017
+ 36385 strings out of 476025
+ 749243 string characters out of 5790017
  1897388 words of memory out of 5000000
  56011 multiletter control sequences out of 15000+600000
  584504 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,102p,588b,2383s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on template.pdf (24 pages, 7314012 bytes).
+Output written on template.pdf (24 pages, 7314280 bytes).
 PDF statistics:
- 700 PDF objects out of 1000 (max. 8388607)
- 511 compressed objects within 6 object streams
- 127 named destinations out of 1000 (max. 500000)
+ 704 PDF objects out of 1000 (max. 8388607)
+ 515 compressed objects within 6 object streams
+ 131 named destinations out of 1000 (max. 500000)
  753 words of extra memory for PDF output out of 10000 (max. 10000000)
 

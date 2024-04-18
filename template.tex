@@ -235,6 +235,12 @@ Clustering is an important type of unsupervised learning (PCA is unsupervised). 
 
 \section{K-Means}
 K-Means is a simple and popular clustering algorithm. The goal is to partition the data into $k$ clusters. The algorithm works as follows:
+\begin{enumerate}
+  \item Randomly initialize $k$ cluster centroids
+  \item Assign each data point to the nearest centroid
+  \item Update the centroids by taking the average of all data points assigned to that centroid
+  \item Repeat steps 2 and 3 until the centroids do not change
+\end{enumerate}
 \section{Hierarchical Clustering}
 \begin{enumerate}
   \item Start with an $n \times n$ adjacency matrix

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1713410009 "template.tex" "template.pdf" "template" 1713410015 0
+["pdflatex"] 1713464941 "template.tex" "template.pdf" "template" 1713464947 0
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -284,17 +284,19 @@
   "images/dendrogram.png" 1713227382 84148 ab3080e4a8eac5a05e8e78c7af55cde1 ""
   "images/gan.png" 1713409990 213087 3f2694f76c0eb40c5eb69479cf937c38 ""
   "images/linkage.png" 1713223400 482103 db75c0b72907a244ea91b3a9db04fe87 ""
+  "images/lstm.png" 1713464285 160405 4b49708a722edfa7a294be8889fd51e2 ""
   "images/pooling.png" 1713408999 679162 6effebd307988a191111af494487fefd ""
   "images/rgb.png" 1713387135 1455734 c36d1ff826a911f442b29e92316e2a84 ""
+  "images/rnn.png" 1713464094 105468 66035ee90055a773f271e375df9b2b39 ""
   "images/s0.png" 1713380935 106682 48d3b40d5d418d454c6d4198cf01f3b5 ""
   "images/s1.png" 1713380906 134333 daf0542118452ee06dc82e5f3ac45669 ""
   "images/s2.png" 1713380881 165656 9acd69bb8d49a3fd044edd1f12f24eea ""
   "images/s3.png" 1713380848 191947 74e21ed51044a48403cd7d6543a0fd04 ""
   "images/silscore.png" 1713234859 872633 b40d8cc8108f35fd0634fd2ded956ac1 ""
   "images/stacking.png" 1713218761 87119 8751f88311e02fb406e2dc530de017ef ""
-  "template.aux" 1713410015 23184 f2bce89df0b27ddb83f1145fbcec09d3 "pdflatex"
-  "template.tex" 1713410003 24681 2a849da045b9e391846e120fb09e25be ""
-  "template.toc" 1713410015 4096 1a523fbefbda9ea983a285399cbc4b60 "pdflatex"
+  "template.aux" 1713464947 24339 d701fa752c524e8868fd26f4115c6000 "pdflatex"
+  "template.tex" 1713464940 28576 c9269d41357cfa88a79e63767ac731d0 ""
+  "template.toc" 1713464947 4339 c034ea4586c566131a15c3cea3ca01b2 "pdflatex"
   (generated)
   "template.aux"
   "template.log"

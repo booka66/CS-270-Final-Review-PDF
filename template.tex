@@ -512,7 +512,6 @@ This all boils down to this bad boi, which you should write down:
     \item Bask in the glory of your optimal Q-values.
   \end{enumerate}
 }
-
 \chapter{CNNs}
 Typically used for image recognition, CNNs are a type of neural network that uses convolutional layers to \textit{spatial and temporal dependencies} in the input data. They are made up of convolutional layers, pooling layers, and fully connected layers.
 \section{Structure}
@@ -545,13 +544,11 @@ These bad bois reduce the spatial dimensions of the input. They do this by apply
   \item Reduces the spatial dimensions along with de-noising the input
   \item Extracts dominant features
 \end{itemize}
-
 \subsubsection{Average Pooling}
 \begin{itemize}
   \item Takes the average value from each region of the input
   \item Reduces the spatial dimensions
 \end{itemize}
-
 \subsection{Fully Connected Layers}
 \begin{itemize}
   \item The final layer of the CNN
@@ -559,7 +556,20 @@ These bad bois reduce the spatial dimensions of the input. They do this by apply
   \item Typically used with softmax activation for image classification
   \item Feature maps are flattened into a vector
 \end{itemize}
-
+\section{AlexNet}
+\begin{itemize}
+  \item Introduced ``deep'' convolutions
+  \item Used ReLU activation
+  \item Good starting place for CNN architectures
+\end{itemize}
+\section{ResNet}
+A type of deep learning architecture that uses residual connections to make training easier. The idea is that the network can learn the residual (difference) between the input and the output. This makes it easier to train deeper networks.
+\begin{itemize}
+  \item \textbf{Problem:} As the network gets deeper, it becomes harder to train. The accuracy can saturate and then degrade.
+  \item \textbf{Residual Learning}: ResNet solves this problem by introducing residual learning. Instead of learning the underlying mapping directly, ResNet learns the residual function, which is the difference between the input and the desired output.
+  \item \textbf{Residual Block}: The building block of ResNet is the residual block. It consists of a series of layers and a skip connection (shortcut) that bypasses these layers. The output of the residual block is the sum of the learned residual function and the input.
+  \item \textbf{Skip Connection}: The skip connection is a key component of the residual block. It skips one or more layers and directly connects the input to the output of the block. This allows the gradients to flow directly through the network, making it easier to train deep networks. 
+\end{itemize}
 \subsection{Something to Be Grateful For}
 The fact that you didn't have to calculate the dimensions and number of trainable parameters in a CNN :D
 
@@ -568,8 +578,55 @@ The fact that you didn't have to calculate the dimensions and number of trainabl
 \begin{align*}
   \includegraphics[width=0.9\textwidth]{images/gan.png}
 \end{align*}
-\section{RNNs}
-\section{LSTMs}
-\section{Transformers}
-
+\begin{itemize}
+  \item \textit{Generator:} Generates fake data
+    \begin{itemize}
+      \item Tries to fool the discriminator
+      \item Takes random noise as input (produces variety)
+      \item Adjusts the weights based on the feedback from the discriminator
+    \end{itemize}
+    \item \textit{Discriminator:} Determines if the data is real or fake
+      \begin{itemize}
+        \item Tries to distinguish between real and fake data
+        \item Adjusts the weights based on accuracy of predictions
+      \end{itemize}
+    \item Unsupervised learning since there is no labeled data (the discriminator learns from the generator)
+    \item The generator and discriminator are trained simultaneously
+\end{itemize}
+\section{Sequential Models}
+Often, we deal with sequential data, such as time series data, text data, and audio data. Sequential models are designed to handle this type of data.
+\subsection{RNNs}
+\begin{align*}
+  \includegraphics[width=0.9\textwidth]{images/rnn.png}
+\end{align*}
+\begin{itemize}
+  \item Allows outputs to be fed back into the network
+  \item Can handle variable-length sequences
+  \item \textit{Vanishing Gradient Problem:} The gradients can become very small, making it hard to learn long-term dependencies
+  \item Single directional context
+\end{itemize}
+\subsection{LSTMs}
+\begin{align*}
+  \includegraphics[width=0.9\textwidth]{images/lstm.png}
+\end{align*}
+\begin{itemize}
+  \item Solves the vanishing gradient problem by using gates
+  \item \textit{Forget Gate:} Decides what information to throw away
+  \item \textit{Input Gate:} Decides what information to store/update
+  \item \textit{Output Gate:} Decides what the next hidden state should be
+\end{itemize}
+\subsection{Transformers}
+Honestly, just go watch 3Blue1Brown's series on them lolol
+\begin{itemize}
+  \item \textit{Self-Attention:} Allows the model to weigh the importance of different words in a sentence
+  \item \textit{Multi-Head Attention:} Allows the model to focus on different parts of the sentence and learn different representations
+  \item \textit{Positional Encoding:} Adds positional information to the input embeddings
+  \item \textit{Encoder-Decoder Architecture:} Used for tasks like translation
+    \begin{itemize}
+      \item The encoder processes the input sequence and produces a vector representation
+      \item The decoder takes the vector representation and generates the output sequence
+    \end{itemize}
+  \item Underlying architecture of BERT, GPT, and other popular generative models
+  \item Unsupservised learning
+\end{itemize}
 \end{document}

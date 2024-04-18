@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  17 APR 2024 14:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  17 APR 2024 21:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1179,7 +1179,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 33.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 33.
-<images/cycle.png, id=220, 1043.9pt x 948.54375pt>
+<images/cycle.png, id=224, 1043.9pt x 948.54375pt>
 File: images/cycle.png Graphic file (type png)
 <use images/cycle.png>
 Package pdftex.def Info: images/cycle.png  used on input line 55.
@@ -1195,7 +1195,7 @@ Chapter 4.
 [8
 
 ]
-<images/bagging.png, id=274, 1244.65pt x 637.38126pt>
+<images/bagging.png, id=278, 1244.65pt x 637.38126pt>
 File: images/bagging.png Graphic file (type png)
 <use images/bagging.png>
 Package pdftex.def Info: images/bagging.png  used on input line 178.
@@ -1205,7 +1205,7 @@ File: images/bagging.png Graphic file (type png)
 Package pdftex.def Info: images/bagging.png  used on input line 178.
 (pdftex.def)             Requested size: 368.57634pt x 188.74553pt.
  [9 <./images/bagging.png>]
-<images/boosting.png, id=282, 1244.65pt x 637.38126pt>
+<images/boosting.png, id=286, 1244.65pt x 637.38126pt>
 File: images/boosting.png Graphic file (type png)
 <use images/boosting.png>
 Package pdftex.def Info: images/boosting.png  used on input line 208.
@@ -1220,7 +1220,7 @@ Overfull \hbox (3.82388pt too wide) in paragraph at lines 210--213
  []
 
 [10 <./images/boosting.png>]
-<images/stacking.png, id=296, 1244.65pt x 532.99126pt>
+<images/stacking.png, id=300, 1244.65pt x 532.99126pt>
 File: images/stacking.png Graphic file (type png)
 <use images/stacking.png>
 Package pdftex.def Info: images/stacking.png  used on input line 231.
@@ -1234,7 +1234,7 @@ Chapter 5.
 [12
 
 ]
-<images/dendrogram.png, id=323, 302.12875pt x 325.215pt>
+<images/dendrogram.png, id=327, 302.12875pt x 325.215pt>
 File: images/dendrogram.png Graphic file (type png)
 <use images/dendrogram.png>
 Package pdftex.def Info: images/dendrogram.png  used on input line 371.
@@ -1243,13 +1243,13 @@ File: images/dendrogram.png Graphic file (type png)
 <use images/dendrogram.png>
 Package pdftex.def Info: images/dendrogram.png  used on input line 371.
 (pdftex.def)             Requested size: 196.57104pt x 211.5907pt.
-<images/linkage.png, id=324, 1828.8325pt x 650.43pt>
+<images/linkage.png, id=328, 1828.8325pt x 650.43pt>
 File: images/linkage.png Graphic file (type png)
 <use images/linkage.png>
 Package pdftex.def Info: images/linkage.png  used on input line 375.
 (pdftex.def)             Requested size: 344.00308pt x 122.34238pt.
  [13 <./images/dendrogram.png>]
-<images/silscore.png, id=335, 923.45pt x 839.135pt>
+<images/silscore.png, id=339, 923.45pt x 839.135pt>
 File: images/silscore.png Graphic file (type png)
 <use images/silscore.png>
 Package pdftex.def Info: images/silscore.png  used on input line 391.
@@ -1264,7 +1264,7 @@ Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before br
 
 [15]
 Chapter 6.
-<images/s0.png, id=356, 937.5025pt x 937.5025pt>
+<images/s0.png, id=360, 937.5025pt x 937.5025pt>
 File: images/s0.png Graphic file (type png)
 <use images/s0.png>
 Package pdftex.def Info: images/s0.png  used on input line 492.
@@ -1276,7 +1276,7 @@ Package pdftex.def Info: images/s0.png  used on input line 492.
 [16
 
 ]
-<images/s1.png, id=363, 937.5025pt x 937.5025pt>
+<images/s1.png, id=367, 937.5025pt x 937.5025pt>
 File: images/s1.png Graphic file (type png)
 <use images/s1.png>
 Package pdftex.def Info: images/s1.png  used on input line 499.
@@ -1285,7 +1285,7 @@ File: images/s1.png Graphic file (type png)
 <use images/s1.png>
 Package pdftex.def Info: images/s1.png  used on input line 499.
 (pdftex.def)             Requested size: 98.28552pt x 98.27615pt.
-<images/s2.png, id=364, 937.5025pt x 937.5025pt>
+<images/s2.png, id=368, 937.5025pt x 937.5025pt>
 File: images/s2.png Graphic file (type png)
 <use images/s2.png>
 Package pdftex.def Info: images/s2.png  used on input line 505.
@@ -1294,7 +1294,7 @@ File: images/s2.png Graphic file (type png)
 <use images/s2.png>
 Package pdftex.def Info: images/s2.png  used on input line 505.
 (pdftex.def)             Requested size: 98.28552pt x 98.27615pt.
-<images/s3.png, id=365, 937.5025pt x 937.5025pt>
+<images/s3.png, id=369, 937.5025pt x 937.5025pt>
 File: images/s3.png Graphic file (type png)
 <use images/s3.png>
 Package pdftex.def Info: images/s3.png  used on input line 511.
@@ -1305,7 +1305,7 @@ Package pdftex.def Info: images/s3.png  used on input line 511.
 (pdftex.def)             Requested size: 98.28552pt x 98.27615pt.
  [17 <./images/s0.png> <./images/s1.png> <./images/s2.png> <./images/s3.png>]
 Chapter 7.
-<images/cnn.png, id=378, 1887.05pt x 1014.79124pt>
+<images/cnn.png, id=382, 1887.05pt x 1014.79124pt>
 File: images/cnn.png Graphic file (type png)
 <use images/cnn.png>
 Package pdftex.def Info: images/cnn.png  used on input line 521.
@@ -1314,7 +1314,7 @@ File: images/cnn.png Graphic file (type png)
 <use images/cnn.png>
 Package pdftex.def Info: images/cnn.png  used on input line 521.
 (pdftex.def)             Requested size: 442.28862pt x 237.84111pt.
-<images/conv_layer.png, id=379, 1591.9475pt x 1165.35374pt>
+<images/conv_layer.png, id=383, 1591.9475pt x 1165.35374pt>
 File: images/conv_layer.png Graphic file (type png)
 <use images/conv_layer.png>
 Package pdftex.def Info: images/conv_layer.png  used on input line 526.
@@ -1326,7 +1326,7 @@ Package pdftex.def Info: images/conv_layer.png  used on input line 526.
 [18
 
  <./images/cnn.png>]
-<images/rgb.png, id=386, 1887.05pt x 1065.9825pt>
+<images/rgb.png, id=390, 1887.05pt x 1065.9825pt>
 File: images/rgb.png Graphic file (type png)
 <use images/rgb.png>
 Package pdftex.def Info: images/rgb.png  used on input line 530.
@@ -1335,28 +1335,46 @@ File: images/rgb.png Graphic file (type png)
 <use images/rgb.png>
 Package pdftex.def Info: images/rgb.png  used on input line 530.
 (pdftex.def)             Requested size: 294.86407pt x 166.55936pt.
- [19 <./images/conv_layer.png> <./images/rgb.png>]
+<images/pooling.png, id=391, 1802.735pt x 1330.9725pt>
+File: images/pooling.png Graphic file (type png)
+<use images/pooling.png>
+Package pdftex.def Info: images/pooling.png  used on input line 540.
+(pdftex.def)             Requested size: 196.57104pt x 145.12796pt.
+File: images/pooling.png Graphic file (type png)
+<use images/pooling.png>
+Package pdftex.def Info: images/pooling.png  used on input line 540.
+(pdftex.def)             Requested size: 196.57104pt x 145.12796pt.
+ [19 <./images/conv_layer.png> <./images/rgb.png> <./images/pooling.png>] [20]
 Chapter 8.
-[20
+<images/gan.png, id=405, 3960.7975pt x 1771.61874pt>
+File: images/gan.png Graphic file (type png)
+<use images/gan.png>
+Package pdftex.def Info: images/gan.png  used on input line 570.
+(pdftex.def)             Requested size: 442.28862pt x 197.82523pt.
+File: images/gan.png Graphic file (type png)
+<use images/gan.png>
+Package pdftex.def Info: images/gan.png  used on input line 570.
+(pdftex.def)             Requested size: 442.28862pt x 197.82523pt.
+[21
 
-] (./template.aux)
+ <./images/gan.png>] (./template.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 36340 strings out of 476025
- 748563 string characters out of 5790017
+ 36359 strings out of 476025
+ 748884 string characters out of 5790017
  1897388 words of memory out of 5000000
- 55983 multiletter control sequences out of 15000+600000
+ 55996 multiletter control sequences out of 15000+600000
  584504 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,102p,588b,2383s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on template.pdf (21 pages, 6220117 bytes).
+Output written on template.pdf (22 pages, 7121817 bytes).
 PDF statistics:
- 651 PDF objects out of 1000 (max. 8388607)
- 478 compressed objects within 5 object streams
- 118 named destinations out of 1000 (max. 500000)
- 701 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 669 PDF objects out of 1000 (max. 8388607)
+ 490 compressed objects within 5 object streams
+ 122 named destinations out of 1000 (max. 500000)
+ 719 words of extra memory for PDF output out of 10000 (max. 10000000)
 

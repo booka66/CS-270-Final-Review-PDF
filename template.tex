@@ -528,11 +528,46 @@ In the case of color images, the kernel is applied to each color channel.
 \begin{align*}
   \includegraphics[width=0.6\textwidth]{images/rgb.png}
 \end{align*}
+\begin{itemize}
+  \item \textit{Stride:} The number of pixels the kernel moves each time
+  \item \textit{Padding:} Adding zeros to the input to preserve the spatial dimensions
+  \item The weights of the kernel are learned during training
+\end{itemize}
 \subsection{Pooling Layers}
+These bad bois reduce the spatial dimensions of the input. They do this by applying an operation to each region of the input. The most common operations are max pooling and average pooling. This decreases the computational power required to process the data. It also can extract \textit{dominant features}.
+\begin{align*}
+  \includegraphics[width=0.4\textwidth]{images/pooling.png}
+\end{align*}
+\subsubsection{Max Pooling}
+\begin{itemize}
+  \item Takes the maximum value from each region of the input
+  \item Tends to perform better than average pooling
+  \item Reduces the spatial dimensions along with de-noising the input
+  \item Extracts dominant features
+\end{itemize}
+
+\subsubsection{Average Pooling}
+\begin{itemize}
+  \item Takes the average value from each region of the input
+  \item Reduces the spatial dimensions
+\end{itemize}
+
 \subsection{Fully Connected Layers}
+\begin{itemize}
+  \item The final layer of the CNN
+  \item Each neuron is connected to every neuron in the previous layer
+  \item Typically used with softmax activation for image classification
+  \item Feature maps are flattened into a vector
+\end{itemize}
+
+\subsection{Something to Be Grateful For}
+The fact that you didn't have to calculate the dimensions and number of trainable parameters in a CNN :D
 
 \chapter{Other Deep Learning Topics}
 \section{GANs}
+\begin{align*}
+  \includegraphics[width=0.9\textwidth]{images/gan.png}
+\end{align*}
 \section{RNNs}
 \section{LSTMs}
 \section{Transformers}

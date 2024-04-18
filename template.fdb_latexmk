@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1713465039 "template.tex" "template.pdf" "template" 1713465045 0
+["pdflatex"] 1713472919 "template.tex" "template.pdf" "template" 1713472925 0
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -277,7 +277,7 @@
   "helpers/macros.tex" 1713058511 3389 93000260d2aea292d29c76d4ace77a29 ""
   "helpers/preamble.tex" 1713129216 20044 32a686db62cb1cfa6f8ca0e067be4d19 ""
   "images/bagging.png" 1713218788 170365 61c8acece6244bd7ef1358c765949733 ""
-  "images/boosting.png" 1713218775 145716 eb4cda924b5b5b7a3f8cf8de9e80de77 ""
+  "images/boosting.png" 1713472887 145793 0691fcf22068f3d48a728a4f32ae4355 ""
   "images/cnn.png" 1713385624 926685 7aba22f0ebd2bedcaa6bc78f10cf7591 ""
   "images/conv_layer.png" 1713387088 172189 fedb1f3eca9bf1afb979febf9fba89b1 ""
   "images/cycle.png" 1713061062 1907902 879e5e324499d54d462c695034b3a7f7 ""
@@ -294,9 +294,9 @@
   "images/s3.png" 1713380848 191947 74e21ed51044a48403cd7d6543a0fd04 ""
   "images/silscore.png" 1713234859 872633 b40d8cc8108f35fd0634fd2ded956ac1 ""
   "images/stacking.png" 1713218761 87119 8751f88311e02fb406e2dc530de017ef ""
-  "template.aux" 1713465045 24339 d522af5ff9d3abcb8897453f5cf17342 "pdflatex"
-  "template.tex" 1713465033 28874 7c2e7e885478eec047878d22f9ed0e08 ""
-  "template.toc" 1713465045 4339 c034ea4586c566131a15c3cea3ca01b2 "pdflatex"
+  "template.aux" 1713472925 24339 d522af5ff9d3abcb8897453f5cf17342 "pdflatex"
+  "template.tex" 1713472830 28874 7c2e7e885478eec047878d22f9ed0e08 ""
+  "template.toc" 1713472925 4339 c034ea4586c566131a15c3cea3ca01b2 "pdflatex"
   (generated)
   "template.aux"
   "template.log"
